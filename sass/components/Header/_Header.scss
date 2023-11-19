@@ -1,0 +1,30 @@
+.header {
+    nav {
+        ul {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 2vw;
+            font-size: 1vw;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+        align-items: center;
+    }
+}
+
+.header-home {
+    display: flex;
+    flex-grow: 1;
+    padding: 1vw;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.login {
+    background-color: #3e54eb;
+    color: #fafafa;
+    width: 6vw;
+    height: 3vw;
+    border-radius: 1vw;
+    border: 0;
+}
