@@ -192,12 +192,21 @@
 .featprop {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    text-align: center;
+    margin: 25px;
 }
 .featprop-1 {
     color: #1a1a1a;
     font-size: 40px;
 }
 .featprop-2 {
+    color: rgb(129, 128, 126);
+}
+
+.ouragents {
+    color: #1a1a1a;
+    font-size: 40px;
+}
+.usingitcanmake {
     color: rgb(129, 128, 126);
 }

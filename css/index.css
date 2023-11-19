@@ -311,8 +311,8 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  text-align: center;
+  margin: 25px;
 }
 
 .featprop-1 {
@@ -321,5 +321,14 @@ li {
 }
 
 .featprop-2 {
+  color: rgb(129, 128, 126);
+}
+
+.ouragents {
+  color: #1a1a1a;
+  font-size: 40px;
+}
+
+.usingitcanmake {
   color: rgb(129, 128, 126);
 }
