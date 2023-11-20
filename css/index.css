@@ -361,7 +361,7 @@ li {
 
 .luap1 {
   max-width: 360px;
-  height: 180px;
+  height: 150px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -398,8 +398,8 @@ li {
 .moredet {
   background-color: #3e54eb;
   color: #fafafa;
-  width: 26px;
-  height: 16px;
+  width: 182px;
+  height: 56px;
   border-radius: 5px;
 }
 
