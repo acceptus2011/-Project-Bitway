@@ -348,7 +348,59 @@ li {
 }
 
 .moderlux {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.luap1 {
+  max-width: 360px;
+  height: 180px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
   background-color: #3e54eb;
+  color: #fafafa;
+}
+
+.luapfont5 {
+  font-size: 16px;
+  white-space: wrap;
+  color: #fafafa;
+}
+
+.moderlux {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 20px;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  border-radius: 10px;
+  background-color: #3e54eb;
+  margin-top: -120px;
+  margin-left: 650px;
+}
+
+.moredet {
+  background-color: #3e54eb;
+  color: #fafafa;
+  width: 26px;
+  height: 16px;
+  border-radius: 5px;
 }
 
 .ouragents {
