@@ -58,6 +58,10 @@ li {
   border: 0;
 }
 
+.itisalong {
+  color: rgb(129, 128, 126);
+}
+
 .letsstart {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,6 +166,7 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 50px;
 }
 
 .whyus {
@@ -280,14 +285,25 @@ li {
           justify-content: space-between;
 }
 
-.latest-div {
+.latest-div1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.latest-div ul {
+.latest-div1 ul {
+  margin: 3px;
+}
+
+.latest-div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.latest-div2 ul {
   margin: 3px;
 }
 
@@ -329,6 +345,10 @@ li {
 
 .featprop-2 {
   color: rgb(129, 128, 126);
+}
+
+.moderlux {
+  background-color: #3e54eb;
 }
 
 .ouragents {
