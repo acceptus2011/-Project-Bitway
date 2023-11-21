@@ -33,13 +33,10 @@
 
 .box-blue {
     display: inline-flex;
-    // flex-grow: 1;
     padding: 20px;
     align-content: space-around;
     border-radius: 10px;
-    // height: 5vw;
     background-color: #3e54eb;
-    // color: #fafafa;
     margin-top: -51px;
     margin-left: 150px;
     li {
@@ -81,7 +78,6 @@
         }
         &:last-child {
             img {
-                // padding: 18px;
                 background-color: #fff;
                 border-radius: 50%;
                 width: 30px;
@@ -95,12 +91,20 @@
 
 .group10 {
     display: flex;
-    padding: 50px;
+    justify-content: space-between;
+
+    // justify-content: left;
+    // margin-top: 0;
+    // padding: 0 10 900 20;
 }
 
+.best-guar-ver-div {
+    padding: 25px;
+}
 .whyus {
     display: inline-flex;
     flex-direction: column;
+    margin: 20px;
     font-size: 18px;
     color: rgb(129, 128, 126);
 }
