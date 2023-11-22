@@ -92,10 +92,18 @@
 .group10 {
     display: flex;
     justify-content: space-between;
+}
+@keyframes group {
+    0% {
+        margin-left: 130px;
+    }
+    100% {
+        margin-left: 1000px;
+    }
+}
 
-    // justify-content: left;
-    // margin-top: 0;
-    // padding: 0 10 900 20;
+.group10 {
+    animation: group 7s linear alternate infinite;
 }
 
 .best-guar-ver-div {

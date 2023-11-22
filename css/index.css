@@ -171,6 +171,28 @@ li {
           justify-content: space-between;
 }
 
+@-webkit-keyframes group {
+  0% {
+    margin-left: 130px;
+  }
+  100% {
+    margin-left: 1000px;
+  }
+}
+
+@keyframes group {
+  0% {
+    margin-left: 130px;
+  }
+  100% {
+    margin-left: 1000px;
+  }
+}
+.group10 {
+  -webkit-animation: group 7s linear alternate infinite;
+          animation: group 7s linear alternate infinite;
+}
+
 .best-guar-ver-div {
   padding: 25px;
 }
