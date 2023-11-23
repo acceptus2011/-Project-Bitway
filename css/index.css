@@ -314,6 +314,16 @@ li {
           justify-content: space-between;
 }
 
+.Alex li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .latest-div1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -516,6 +526,10 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .testimon-text-1 {

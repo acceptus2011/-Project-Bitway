@@ -188,6 +188,12 @@
     justify-content: space-between;
 }
 
+.Alex li {
+    display: flex;
+    text-wrap: wrap;
+    align-items: center;
+}
+
 .latest-div1 {
     display: flex;
     flex-wrap: wrap;
@@ -322,7 +328,8 @@
 }
 .test-agent-text {
     display: flex;
-    // justify-content: center;
+    text-wrap: wrap;
+    align-items: center;
 }
 .testimon-text-1 {
     font-size: 20px;
