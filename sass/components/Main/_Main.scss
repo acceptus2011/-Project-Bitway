@@ -240,7 +240,6 @@
     flex-direction: column;
     justify-content: flex-end;
     align-content: space-between;
-    // background-color: #3e54eb;
 }
 .luap1 {
     max-width: 360px;
@@ -252,6 +251,12 @@
     border-radius: 10px;
     background-color: #3e54eb;
     color: #fafafa;
+}
+.luapfont3 li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px;
 }
 .luapfont5 {
     font-size: 16px;
