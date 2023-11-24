@@ -186,6 +186,7 @@
 .Alex {
     display: flex;
     justify-content: space-between;
+    margin: 10px;
 }
 
 .Alex li {
@@ -215,6 +216,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-content: space-between;
+    border-radius: 50px;
+    margin: 20px;
 }
 
 .group24 {
